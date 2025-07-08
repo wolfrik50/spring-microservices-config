@@ -1,6 +1,12 @@
 # Custom Properties
 env: default
 
+# Spring Properties
+spring:
+  threads:
+    virtual:
+      enabled: true
+
 # Eureka Properties
 eureka:
   instance:
@@ -8,3 +14,19 @@ eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
+
+# Logging Properties
+logging:
+  level:
+    root: INFO
+
+# Management Properties
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: always
