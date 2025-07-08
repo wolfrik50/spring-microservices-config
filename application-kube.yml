@@ -1,5 +1,7 @@
+# Custom Properties
 env: kube
 
+# Eureka Properties
 eureka:
   client:
     service-url:

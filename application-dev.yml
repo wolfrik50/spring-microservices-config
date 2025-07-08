@@ -1,5 +1,7 @@
+# Custom Properties
 env: dev
 
+# Eureka Properties
 eureka:
   client:
     service-url:

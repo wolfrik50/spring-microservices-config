@@ -1,5 +1,7 @@
+# Custom Properties
 env: default
 
+# Eureka Properties
 eureka:
   instance:
     prefer-ip-address: true
